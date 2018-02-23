@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+  datasource:
+    url: jdbc:mysql://localhost:3306/components
+    username: root
+    password:
+
+  hateoas:
+    use-hal-as-default-json-media-type: false
